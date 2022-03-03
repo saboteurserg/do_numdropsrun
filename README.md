@@ -42,9 +42,9 @@ Parameters:
 * ***mode***: - what to do
 
 possible values:
-- *all* (params: dropsnum, command) - runs eveything: creates droplets, waits when all are active, runs command on each droplet, when all finished -  deletes all droplets
-- *create* - (params: dropsnum) - creates droplets and waits when all of them are ready
-- *exec* - (params: command) - runs alpine/bombardier command
+- *all* (params: dropsnum, command) - runs eveything: creates droplets (number is specified in `dropsnum` parameter), waits when all are active, runs linux command (specified by `command`parameter) on each droplet, when all finished -  deletes all droplets
+- *create* - (params: dropsnum) - creates droplets (number is specified by `dropsnum` parameter) and waits when all of them are ready
+- *exec* - (params: command) - runs linux command specified with `command` parameter
 - *delete* - (no params) - deletes all droplets
 
 * ***dropsnum*** - number of droplets to create
