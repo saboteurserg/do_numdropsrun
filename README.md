@@ -36,7 +36,7 @@ Configure following variables which are in the config.js file:
 ```
 
 
-Run
+Parameters:
 ---
 
 * ***mode***: - what to do
@@ -51,7 +51,8 @@ possible values:
 * ***command*** - linux command to execute
 
 
-Examples:
+Examples how to run with parameters:
+---
 - `node index.js --mode all --dropsnum 3 --command "docker run --rm alpine/bombardier -c 1500 -d 3600s -l https://example.com"`
 - `node index.js --mode create --dropsnum 10`
 - `node index.js --mode exec --command "docker run --rm alpine/bombardier -c 10 -d 10s -l http://example.com"`
