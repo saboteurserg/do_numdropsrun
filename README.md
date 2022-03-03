@@ -14,11 +14,11 @@ Installation
 * install nodejs
 * install nodejs modules:
  
-`npm install https`
-`npm install simple-ssh`
-`npm install fs`
-`npm install process`
-`npm install minimist`
+- `npm install https`
+- `npm install simple-ssh`
+- `npm install fs`
+- `npm install process`
+- `npm install minimist`
 
 
 Setup
@@ -52,7 +52,7 @@ possible values:
 
 
 Examples:
-`node index.js --mode all --dropsnum 3 --command "docker run --rm alpine/bombardier -c 1500 -d 3600s -l https://example.com"`
-`node index.js --mode create --dropsnum 10`
-`node index.js --mode exec --command "docker run --rm alpine/bombardier -c 10 -d 10s -l http://example.com"`
-`node index.js --mode delete`
+- `node index.js --mode all --dropsnum 3 --command "docker run --rm alpine/bombardier -c 1500 -d 3600s -l https://example.com"`
+- `node index.js --mode create --dropsnum 10`
+- `node index.js --mode exec --command "docker run --rm alpine/bombardier -c 10 -d 10s -l http://example.com"`
+- `node index.js --mode delete`
